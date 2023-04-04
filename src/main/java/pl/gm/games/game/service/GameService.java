@@ -10,10 +10,11 @@ import java.util.List;
 
 @Service
 public class GameService {
-    @Autowired
-    private GameRepository gameRepository;
 
-    public GameService() {
+    private final GameRepository gameRepository;
+
+    public GameService(GameRepository gameRepository) {
+        this.gameRepository = gameRepository;
     }
 
     public List<Game> getGames() {
