@@ -3,7 +3,7 @@ This is a sample project for a Spring Boot CRUD REST API with JUnit 5 tests. The
 # Requirements:
 To run the project, you will need the following installed on your system:
 
-*JDK 8 or higher
+*JDK 17
 
 *Maven
 
